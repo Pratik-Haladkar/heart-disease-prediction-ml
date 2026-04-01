@@ -2,7 +2,7 @@
 
 ## 📌 Overview
 
-This project is an end-to-end Machine Learning application that predicts the risk of heart disease based on clinical parameters. It includes data preprocessing, model training with cross-validation, and deployment using a Streamlit web app for real-time predictions.
+This project is an end-to-end Machine Learning application that predicts the risk of heart disease based on clinical parameters. It includes data preprocessing, cross-validation, and deployment using a Streamlit web app for real-time predictions.
 
 ---
 
@@ -19,7 +19,7 @@ This project is an end-to-end Machine Learning application that predicts the ris
 
 ## 🧠 Problem Statement
 
-Heart disease is one of the leading causes of death worldwide. Early detection can significantly reduce risks. This project aims to predict whether a patient is at risk based on medical attributes.
+Heart disease is one of the leading causes of death worldwide. Early detection can help reduce risks. This project predicts whether a patient is at risk based on medical attributes.
 
 ---
 
@@ -36,11 +36,11 @@ Heart disease is one of the leading causes of death worldwide. Early detection c
 
 ## ⚙️ Tech Stack
 
-* Python 🐍
-* Scikit-learn 🤖
-* Pandas & NumPy 📊
-* Streamlit 🌐
-* Joblib 💾
+* Python
+* Scikit-learn
+* Pandas & NumPy
+* Streamlit
+* Joblib
 
 ---
 
@@ -67,6 +67,30 @@ Heart disease is one of the leading causes of death worldwide. Early detection c
 ## 🌐 Live Demo
 
 👉 (Add your Streamlit app link here after deployment)
+
+---
+
+## 🧪 Sample Test Cases
+
+### 🔹 Test Case 1
+
+```
+41,0,1,130,204,0,0,172,0,1.4,2,0,2
+```
+
+* Expected Output: **High Risk (1)**
+* Description: Moderate age, slightly high cholesterol, moderate ST depression
+
+---
+
+### 🔹 Test Case 2
+
+```
+43,1,0,120,177,0,0,120,1,2.5,1,0,3
+```
+
+* Expected Output: **Low Risk (0)**
+* Description: Conflicting indicators (exercise angina + high ST depression but labeled low risk)
 
 ---
 
@@ -108,16 +132,16 @@ streamlit run app.py
 
 ## 📸 Screenshots
 
-(Add screenshots of your app UI here)
+(Add screenshots of your Streamlit app here)
 
 ---
 
 ## 🔮 Future Improvements
 
-* 📊 Add model comparison (Logistic Regression, SVM)
-* 🧠 Add SHAP explainability
-* 🎯 Add risk probability levels (Low/Medium/High)
-* 🌍 Deploy with custom domain
+* 📊 Model comparison (Logistic Regression, SVM)
+* 🧠 SHAP explainability
+* 🎯 Risk probability levels (Low/Medium/High)
+* 🌍 Deployment enhancements
 
 ---
 
@@ -130,3 +154,4 @@ streamlit run app.py
 ## ⭐ If you found this useful
 
 Give this repo a ⭐ on GitHub!
+
